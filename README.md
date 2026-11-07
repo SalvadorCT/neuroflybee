@@ -336,7 +336,7 @@ el tamaño de las redes publicadas de Bee-Nav (868 y 10 820 parámetros) como es
 python scripts/validate_sensor.py      # 30 escenarios de prueba, ~5 s, sin PyTorch
 ```
 
-**¿Por qué 2,5D y no 3D?** El dron vuela a una altura fija y el vector a casa es horizontal
+**¿Por qué 2,5D y no 3D?** El dron vuela a una  altura fija y el vector a casa es horizontal
 (igual que en Firlefyn et al., 2024, que fijan el cuadricóptero a 1,89 m), así que el
 movimiento se simula en el plano. La percepción, en cambio, no es plana: la abeja ve la
 **silueta del horizonte**, la elevación angular de cada objeto según su altura y distancia,
